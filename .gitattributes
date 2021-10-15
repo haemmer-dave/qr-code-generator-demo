@@ -1,0 +1,13 @@
+# We'll let Git's auto-detection algorithm infer if a file is text. If it is,
+# enforce LF line endings regardless of OS or git configurations.
+* text=auto eol=lf
+
+# Make sure HTML files are treated as text.
+*.css text eol=lf
+*.html text eol=lf
+*.js text eol=lf
+
+# Isolate binary files in case the auto-detection algorithm fails and
+# marks them as text files (which could brick them).
+*.{jpeg,jpg} binary
+*.png binary
