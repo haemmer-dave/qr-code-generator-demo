@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>QR Code Generator Demo</title>
+  </head>
+  <body>
+    <form>
+      <label for="qr-content"
+        >QR content:
+        <abbr title="required" aria-label="required">*</abbr></label
+      >
+      <input type="text" id="qr-content" required />
+      <button type="button" id="generate-button">Generate QR code</button>
+    </form>
+    <canvas id="qr-output"></canvas>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>

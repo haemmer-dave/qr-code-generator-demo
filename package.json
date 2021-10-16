@@ -2,7 +2,6 @@
   "name": "qrcodegeneratordemo",
   "version": "1.0.0",
   "description": "A simple demo using the qrcode-with-logo package",
-  "main": "index.js",
   "scripts": {
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
