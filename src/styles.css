@@ -1,0 +1,63 @@
+form {
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 1em;
+  width: 500px;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+}
+
+button,
+input {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+input {
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+.error {
+  display: block;
+  width: 300px;
+  margin-left: 154px;
+  padding: 0;
+
+  font-size: 80%;
+  color: white;
+  background-color: #900;
+  border-radius: 0 0 5px 5px;
+
+  box-sizing: border-box;
+}
+
+.error.active {
+  padding: 0.3em;
+}
+
+.button {
+  padding-left: 150px;
+}
+
+button {
+  margin-left: 0.5em;
+}
+
+canvas {
+  display: block;
+  margin: 20px auto;
+  padding: 0;
+  width: 1000px;
+}
